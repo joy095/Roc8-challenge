@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  height: 56px;
+  background: #343a40;
+}
+
+nav .active {
+  color: #fff !important;
+}
+
+nav .logo {
+  color: #fff;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  padding: 8px;
+  font-size: 16px;
+}
+
+header {
+  padding: 64px 32px;
+  margin-bottom: 32px;
+  font-family: sans-serif;
+}
+
+footer {
+  background: #343a40;
+  color: #fff;
+}
+
+.mobile-menu .mobile-meun-img {
+  height: 30px;
+  width: 30px;
+}
+
+.mobile-menu {
+  height: 40px;
+  width: 56px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+}
+
+.tablet {
+  display: none;
+}
+
+@media screen and (min-width: 48em) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+}

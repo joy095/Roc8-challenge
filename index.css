@@ -1,0 +1,13 @@
+.card-btn-color:hover {
+  background: #0056b3 !important;
+  cursor: pointer;
+}
+.card-btn-color {
+  background: #007bff !important;
+  color: #fff !important;
+}
+
+header {
+  background: #e9ecef;
+  color: #212529;
+}
